@@ -426,6 +426,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &773367044 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5794444343759064260, guid: 1a2b399cb5919674eb3df829a53cb860,
+    type: 3}
+  m_PrefabInstance: {fileID: 5794444343802767822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &773367045
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773367044}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.038917065, y: -0.39403427}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.40327358, y: 0.114639044}
+  m_EdgeRadius: 0
 --- !u!95 &773367048 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5794444343759064258, guid: 1a2b399cb5919674eb3df829a53cb860,
@@ -25405,7 +25437,7 @@ PrefabInstance:
     - target: {fileID: 2119138132515466125, guid: e5f24ce808abb304e85965365d7a25c4,
         type: 3}
       propertyPath: orthographic size
-      value: 4.25
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 2119138132677747474, guid: e5f24ce808abb304e85965365d7a25c4,
         type: 3}
@@ -25588,6 +25620,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 61170955, guid: 1a2b399cb5919674eb3df829a53cb860, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 964b00cdd3aeeae41ad37cf1dd094493, type: 2}
+    - target: {fileID: 61170955, guid: 1a2b399cb5919674eb3df829a53cb860, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.03951955
+      objectReference: {fileID: 0}
+    - target: {fileID: 61170955, guid: 1a2b399cb5919674eb3df829a53cb860, type: 3}
+      propertyPath: m_Size.x
+      value: 0.53833055
+      objectReference: {fileID: 0}
+    - target: {fileID: 61170955, guid: 1a2b399cb5919674eb3df829a53cb860, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.012833655
+      objectReference: {fileID: 0}
+    - target: {fileID: 61170955, guid: 1a2b399cb5919674eb3df829a53cb860, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8250898
+      objectReference: {fileID: 0}
     - target: {fileID: 5794444343759064260, guid: 1a2b399cb5919674eb3df829a53cb860,
         type: 3}
       propertyPath: m_Name
