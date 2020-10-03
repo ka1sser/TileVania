@@ -286,7 +286,7 @@ TilemapRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -6381,7 +6381,7 @@ TilemapRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -25095,6 +25095,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 649464303865422737, guid: 9266e6b9c376d264f86ac686e0e94b4e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9266e6b9c376d264f86ac686e0e94b4e, type: 3}
 --- !u!1001 &2119138132948685810
@@ -25130,6 +25135,11 @@ PrefabInstance:
       propertyPath: m_BoundingShape2D
       value: 
       objectReference: {fileID: 1202558694}
+    - target: {fileID: 2119138132515466125, guid: e5f24ce808abb304e85965365d7a25c4,
+        type: 3}
+      propertyPath: orthographic size
+      value: 4.25
+      objectReference: {fileID: 0}
     - target: {fileID: 2119138132677747474, guid: e5f24ce808abb304e85965365d7a25c4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25228,6 +25238,14 @@ PrefabInstance:
     - target: {fileID: 61170955, guid: 1a2b399cb5919674eb3df829a53cb860, type: 3}
       propertyPath: m_Size.y
       value: 0.8250898
+      objectReference: {fileID: 0}
+    - target: {fileID: 61170957, guid: 1a2b399cb5919674eb3df829a53cb860, type: 3}
+      propertyPath: deathKick.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 61170957, guid: 1a2b399cb5919674eb3df829a53cb860, type: 3}
+      propertyPath: deathKick.y
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5794444343759064260, guid: 1a2b399cb5919674eb3df829a53cb860,
         type: 3}
