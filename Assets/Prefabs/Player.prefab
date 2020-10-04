@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 5
-  jumpSpeed: 20
+  jumpSpeed: 21
   climbSpeed: 4
   deathKick: {x: 5, y: 10}
 --- !u!61 &773367045
