@@ -21,7 +21,7 @@ TagManager:
   - Enemy
   - Hazards
   - Interactables
-  - 
+  - Effects
   - 
   - 
   - 
@@ -62,4 +62,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 765122377
+    locked: 0
+  - name: Effects
+    uniqueID: 2179162107
     locked: 0
