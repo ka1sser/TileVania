@@ -5,6 +5,7 @@ using UnityEngine;
 public class ButtonTimer : MonoBehaviour
 {
     [SerializeField] GameObject startButton;
+    [SerializeField] GameObject quitButton;
 
 
     void Start()
@@ -15,8 +16,9 @@ public class ButtonTimer : MonoBehaviour
     IEnumerator ShowButton()
     {
         startButton.SetActive(false);
-
-        yield return new WaitForSeconds(5);
+        quitButton.SetActive(false);
+        yield return new WaitForSeconds(7);
         startButton.SetActive(true);
+        quitButton.SetActive(true);
     }
 }
