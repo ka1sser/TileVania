@@ -27,7 +27,7 @@ public class ScenePersist : MonoBehaviour
     private void Update()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if(currentSceneIndex != startingSceneIndex)
+        if (currentSceneIndex != startingSceneIndex)
         {
             Destroy(gameObject);
         }
