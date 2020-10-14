@@ -8,6 +8,7 @@ public class ScenePersist : MonoBehaviour
     int startingSceneIndex;
     private void Awake()
     {
+        gameObject.SetActive(true);
         int numScenePersist = FindObjectsOfType<ScenePersist>().Length;
         if (numScenePersist > 1)
         {

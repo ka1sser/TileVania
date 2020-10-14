@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelExit : MonoBehaviour
 {
-    ScenePersist myScenePersist;
+   ScenePersist myScenePersist;
 
     private void Start()
     {
@@ -15,7 +15,7 @@ public class LevelExit : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D otherCollider)
     {
         OnLevelExit();
-        Destroy(myScenePersist);
+        myScenePersist.gameObject.SetActive(false);
     }
 
     private void OnLevelExit()
