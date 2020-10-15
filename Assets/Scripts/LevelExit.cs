@@ -5,17 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelExit : MonoBehaviour
 {
-   ScenePersist myScenePersist;
-
-    private void Start()
-    {
-        myScenePersist = FindObjectOfType<ScenePersist>();
-    }
-
     private void OnTriggerEnter2D(Collider2D otherCollider)
     {
         OnLevelExit();
-        myScenePersist.gameObject.SetActive(false);
     }
 
     private void OnLevelExit()
